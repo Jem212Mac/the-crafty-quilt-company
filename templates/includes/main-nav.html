@@ -17,11 +17,11 @@
                 Quilts
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="quilt-link">
-                <a href="" class="dropdown-item">Baby Quilts</a>
-                <a href="" class="dropdown-item">Lap Quilts &amp Throws</a>
-                <a href="" class="dropdown-item">Single Quilts</a>
-                <a href="" class="dropdown-item">Double Quilts</a>
-                <a href="" class="dropdown-item">King Size Quilts</a>
+                <a href="{% url 'products' %}?category=baby_quilts" class="dropdown-item">Baby Quilts</a>
+                <a href="{% url 'products' %}?category=lap_throw" class="dropdown-item">Lap Quilts &amp Throws</a>
+                <a href="{% url 'products' %}?category=single_quilts" class="dropdown-item">Single Quilts</a>
+                <a href="{% url 'products' %}?category=double_quilts" class="dropdown-item">Double Quilts</a>
+                <a href="{% url 'products' %}?category=king_quilts" class="dropdown-item">King Size Quilts</a>
             </div>
         </li>
 
@@ -30,9 +30,9 @@
                 Haberdashery
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="haberdashery-link">
-                <a href="" class="dropdown-item">Fabric</a>
-                <a href="" class="dropdown-item">Batting</a>
-                <a href="" class="dropdown-item">Tools &amp Accessories</a>
+                <a href="{% url 'products' %}?category=fabric" class="dropdown-item">Fabric</a>
+                <a href="{% url 'products' %}?category=batting" class="dropdown-item">Batting</a>
+                <a href="{% url 'products' %}?category=tools" class="dropdown-item">Tools &amp Accessories</a>
             </div>
         </li>
 
@@ -41,9 +41,10 @@
                 Books
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="book-link">
-                <a href="" class="dropdown-item">Beginner's Quilting Books</a>
-                <a href="" class="dropdown-item">Free Motion Quilting Books</a>
-                <a href="" class="dropdown-item">Quilting Pattern Books</a>
+                <a href="{% url 'products' %}?category=beginners_books" class="dropdown-item">Beginner's Quilting Books</a>
+                <a href="{% url 'products' %}?category=free_motion_books" class="dropdown-item">Free Motion Quilting Books</a>
+                <a href="{% url 'products' %}?category=pattern_books" class="dropdown-item">Quilting Pattern Books</a>
+                <a href="{% url 'products' %}?category=quilt_as_you_go_books" class="dropdown-item">Quilt As-You-Go Books</a>
             </div>
         </li>
     </ul>

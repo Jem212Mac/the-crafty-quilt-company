@@ -32,8 +32,10 @@
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="haberdashery-link">
                 <a href="{% url 'products' %}?category=fabric" class="dropdown-item">Fabric</a>
+                <a href="{% url 'products' %}?category=fabric_bundles" class="dropdown-item">Fabric Bundles</a>
                 <a href="{% url 'products' %}?category=batting" class="dropdown-item">Batting</a>
                 <a href="{% url 'products' %}?category=tools" class="dropdown-item">Tools &amp Accessories</a>
+                <a href="{% url 'products' %}?category=fabric,fabric_bundles,batting,tools" class="dropdown-item">All Haberdashery</a>
             </div>
         </li>
 
@@ -46,6 +48,7 @@
                 <a href="{% url 'products' %}?category=free_motion_books" class="dropdown-item">Free Motion Quilting Books</a>
                 <a href="{% url 'products' %}?category=pattern_books" class="dropdown-item">Quilting Pattern Books</a>
                 <a href="{% url 'products' %}?category=quilt_as_you_go_books" class="dropdown-item">Quilt As-You-Go Books</a>
+                <a href="{% url 'products' %}?category=beginners_books,free_motion_books,pattern_books,quilt_as_you_go_books" class="dropdown-item">All Books</a>
             </div>
         </li>
     </ul>

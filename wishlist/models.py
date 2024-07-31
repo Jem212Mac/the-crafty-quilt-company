@@ -2,7 +2,6 @@ from django.db import models
 from products.models import Product
 from profiles.models import User
 
-
 class Wishlist(models.Model):
     user = models.OneToOneField(
         User,
@@ -18,3 +17,4 @@ class Wishlist(models.Model):
         auto_now_add=True,
         editable=False
     )
+    

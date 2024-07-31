@@ -20,10 +20,36 @@
             </div>
         </div>
 
-    <div class="row">
-        <div class="col">
-            {% if wishlist_items %}
-                <div class="table-responsive rounded"></div>
+        <div class="row justify-content-center">
+            {% if wishlist %}
+            {% for item in wishlist %}
+            <div class="col-sm-6 col-md-4 col-lg-3 my-2">
+                <div class="card h-70 border-0">
+                    <div class="card-body p-1">
+                        <div class="image-container mt-2">
+                            {% if item.product.image %}
+                            <img class="img-fluid rounded" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
+                            {% else %}
+                            <img class="img-fluid rounded" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.name }}">
+                            {% endif %}
+                        </div>
+                        <p class="card-title text-black text-center my-2"><strong>{{ item.product.name }}</strong>
+                        </p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6 text-black">
+                                    <p class="my-0">Price: £{{ item.product.price }}</p>
+                                </div>
+                                <div class="col-6">
+                                    <a class="text-danger text-decoration-none ms-1 float-end"
+                                        href="{% url 'remove_from_wishlist' item.product.id %}"><small>Remove</small></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
             {% else %}
                 <p class="lead mb-5">Your wishlist is empty.</p>
                 <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">

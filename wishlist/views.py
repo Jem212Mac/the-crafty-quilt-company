@@ -1,4 +1,4 @@
-from django.shortcuts import render, reverse, redirect, get_object_or_404
+from django.shortcuts import render, reverse, redirect, get_object_or_404, HttpResponse
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from products.models import Product
@@ -32,7 +32,11 @@ def add_to_wishlist(request, product_id):
     messages.success(
         request, f'{product.name} has been added to your Wishlist!')
 
-    return redirect(reverse('product_detail', args=[product.id]))
+    context = {
+        'on_wishlist_page': True
+    }
+
+    return redirect('wishlist')
 
 
 @login_required
@@ -47,4 +51,9 @@ def remove_from_wishlist(request, item_id):
             request,
             f'Successfully removed {item.name} from your wishlist!'
             )
-    return redirect(reverse('product_detail', args=[item.id]))
+    
+    context = {
+        'on_wishlist_page': True
+    }
+    
+    return redirect('wishlist')

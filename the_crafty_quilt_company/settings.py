@@ -69,7 +69,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'the_crafty_quilt_company.urls'
 
-CRISP_TEMPLATE_PACK = 'bootstrap4'
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 TEMPLATES = [
     {

@@ -263,6 +263,26 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
+/* Footer */
+.footer {
+    height: 60px;
+    background-color: #000;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: rgb(255, 255, 255);
+}
+
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {

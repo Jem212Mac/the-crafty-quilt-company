@@ -1,6 +1,6 @@
 from django.db import models
 
-class contact(models.Model):
+class Contact(models.Model):
     """
     Stores a 'contact us' request message.
     """

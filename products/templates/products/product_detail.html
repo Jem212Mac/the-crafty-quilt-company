@@ -142,8 +142,8 @@
                                     </p>
                                 {% endif %}
                                 {% if user.is_authenticated and review.author == user %}
-                                    <button class="btn btn-edit btn-secondary">Edit</button>
-                                    <button class="btn btn-delete btn-danger">Delete</button>
+                                    <button class="btn btn-edit btn-secondary" data-review_id="{{ review.id }}">Edit</button>
+                                    <button class="btn btn-delete btn-danger" data-review_id="{{ review.id }}">Delete</button>
                                 {% endif %}
                         </div>
                     <!-- For loop ends here -->
@@ -195,5 +195,6 @@
 
 {% block postloadjs %}
 {{ block.super }}
+<script type="text/javascript" src="{% static 'products/js/reviews.js' %}"></script>
 {% include 'products/includes/quantity_input_script.html' %}
 {% endblock %}

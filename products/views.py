@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponseRedirect
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
@@ -158,7 +158,7 @@ def delete_product(request, product_id):
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))
 
-def review_edit(request, review_id):
+def review_edit(request, review_id, product_id):
     """
     Displays an individual review for edit.
     """
@@ -180,7 +180,7 @@ def review_edit(request, review_id):
 
     return HttpResponseRedirect(reverse('product_detail', args=[product.id]))
 
-def review_delete(request, review_id):
+def review_delete(request, review_id, product_id):
     """
     Delete an individual review.
     """

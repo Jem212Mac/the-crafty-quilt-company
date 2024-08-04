@@ -1,6 +1,11 @@
 from django.db import models
 from django.contrib.auth.models import User
 
+RATING = (
+    (5, "5 Stars"), (4, "4 Stars"), (3, "3 Stars"),
+    (2, "2 Stars"),
+    (1, "1 Star"), (0, "0 Stars"))
+
 
 class Category(models.Model):
 
@@ -33,10 +38,11 @@ class Product(models.Model):
 
 class Review(models.Model):
     product = models.ForeignKey(
-        Product, on_delete=models.CASCADE, related_name="product_review")
+        Product, on_delete=models.CASCADE, related_name="reviews")
     author = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name="reviewer")
-    body = models.TextField()
+    rating = models.IntegerField(choices=RATING, default=5)
+    description = models.TextField(blank=True)
     approved = models.BooleanField(default=False)
     created_on = models.DateTimeField(auto_now_add=True)
 
@@ -44,4 +50,4 @@ class Review(models.Model):
         ordering = ["created_on"]
 
     def __str__(self):
-        return f"{self.body} by {self.author}"
+        return f"{self.description} by {self.author}"

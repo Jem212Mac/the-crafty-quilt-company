@@ -59,14 +59,6 @@
           </div>
           <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
               <ul class="list-inline list-unstyled text-center text-lg-right my-0">
-                    <li class="list-inline-item">
-                        <a class="text-black nav-link" href="{% url 'contact' %}">
-                            <div class="text-center">
-                                <div><i class="fas fa-phone fa-lg"></i></div>
-                                <p class="my-0">Contact Us</p>
-                            </div>
-                        </a>
-                    </li>
                   <li class="list-inline-item dropdown">
                       </a>
                       <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -130,17 +122,10 @@
                     aria-label="Visit our facebook page (opens in a new tab)">
                     <i class="fa-brands fa-facebook"></i></a>
             </li>
-            <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our twitter page (opens in a new tab)">
-                    <i class="fa-brands fa-twitter"></i></a>
+            <li><a href="{% url 'contact' %}"
+                    aria-label="Contact Us">
+                    <i class="fas fa-phone fa-lg"></i></a>
             </li>
-            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our youtube page (opens in a new tab)">
-                    <i class="fa-brands fa-youtube"></i></a>
-            </li>
-            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our instagram page (opens in a new tab)">
-                    <i class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
     </div>

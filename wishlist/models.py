@@ -9,8 +9,8 @@ class WishList(models.Model):
     """
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     products = models.ManyToManyField(Product,
-                                      through="WishListItem",
-                                      related_name='product_wishlists')
+                                        through="WishListItem",
+                                        related_name='product_wishlists')
 
     def __str__(self):
         return f'WishList ({self.user})'
@@ -27,9 +27,9 @@ class WishListItem(models.Model):
                                 blank=False,
                                 on_delete=models.CASCADE)
     wishlist = models.ForeignKey(WishList,
-                                 null=False,
-                                 blank=False,
-                                 on_delete=models.CASCADE)
+                                null=False,
+                                blank=False,
+                                on_delete=models.CASCADE)
 
     def __str__(self):
         return self.product.name

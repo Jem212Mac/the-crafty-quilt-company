@@ -56,4 +56,3 @@ def remove_from_wishlist(request, product_id):
     messages.info(request, "A product was removed from your wishlist")
 
     return redirect(request.META.get('HTTP_REFERER'))
-    

@@ -151,9 +151,9 @@
         var data = {'csrfmiddlewaretoken': csrfToken, 'product_id': itemId};
 
         $.post(url, data)
-         .done(function() {
-             location.reload();
-         });
+        .done(function() {
+            location.reload();
+        });
     })
 </script>
 {% endblock %}

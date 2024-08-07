@@ -60,8 +60,10 @@ class Migration(migrations.Migration):
                     auto_created=True, primary_key=True,
                     serialize=False, verbose_name='ID')),
                 ('rating', models.IntegerField(
-                    choices=[(5, '5 Stars'), (4, '4 Stars'), (3, '3 Stars'),
-                    (2, '2 Stars'), (1, '1 Star'), (0, '0 Stars')], default=5)),
+                    choices=[
+                        (5, '5 Stars'), (4, '4 Stars'), (3, '3 Stars'),
+                        (2, '2 Stars'), (1, '1 Star'),
+                        (0, '0 Stars')], default=5)),
                 ('description', models.TextField(blank=True)),
                 ('approved', models.BooleanField(default=False)),
                 ('created_on', models.DateTimeField(auto_now_add=True)),

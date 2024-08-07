@@ -195,4 +195,3 @@ def review_delete(request, review_id, product_id):
             request, messages.ERROR, 'You can only delete your own reviews!')
 
     return HttpResponseRedirect(reverse('product_detail', args=[product.id]))
-    

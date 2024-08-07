@@ -1,0 +1,1 @@
+web: gunicorn the_crafty_quilt_company.wsgi:application

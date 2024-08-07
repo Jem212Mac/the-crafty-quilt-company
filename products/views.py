@@ -1,4 +1,5 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponseRedirect
+from django.shortcuts import (
+    render, redirect, reverse, get_object_or_404, HttpResponseRedirect)
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
@@ -47,7 +48,7 @@ def all_products(request):
                 messages.error(
                     request, "You didn't enter any search criteria!")
                 return redirect(reverse('products'))
-            
+
             queries = Q(
                 name__icontains=query) | Q(
                     description__icontains=query) | Q(
@@ -109,7 +110,7 @@ def add_product(request):
     if request.method == 'POST':
         form = ProductForm(request.POST, request.FILES)
         if form.is_valid():
-            product=form.save()
+            product = form.save()
             messages.success(request, 'Successfully added product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
@@ -118,11 +119,10 @@ def add_product(request):
                 'Failed to add product. Please ensure the form is valid.')
     else:
         form = ProductForm()
-        
-    template = 'products/add_product.html'
-    context = {
-        'form': form,
-    }
+        template = 'products/add_product.html'
+        context = {
+            'form': form,
+        }
 
     return render(request, template, context)
 

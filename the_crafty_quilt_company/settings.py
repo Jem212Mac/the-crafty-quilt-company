@@ -29,7 +29,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 DEBUG = 'DEBUG' in os.environ
 
-ALLOWED_HOSTS = ['8000-jem212mac-thecraftyquil-c6n3gc4i2xf.ws.codeinstitute-ide.net', '.herokuapp.com']
+ALLOWED_HOSTS = [
+    '8000-jem212mac-thecraftyquil-c6n3gc4i2xf.ws.codeinstitute-ide.net',
+    '.herokuapp.com']
 
 
 # Application definition
@@ -136,19 +138,16 @@ else:
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
-AUTH_PASSWORD_VALIDATORS = [
-    {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+AUTH_PASSWORD_VALIDATORS = [{
+    'NAME':
+    'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
     },
-    {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
-    },
+    {'NAME':
+        'django.contrib.auth.password_validation.MinimumLengthValidator', },
+    {'NAME':
+        'django.contrib.auth.password_validation.CommonPasswordValidator', },
+    {'NAME':
+        'django.contrib.auth.password_validation.NumericPasswordValidator', },
 ]
 
 

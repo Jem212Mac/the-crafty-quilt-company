@@ -17,9 +17,12 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Category',
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('id', models.BigAutoField(
+                    auto_created=True, primary_key=True,
+                    serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=254)),
-                ('friendly_name', models.CharField(blank=True, max_length=254, null=True)),
+                ('friendly_name', models.CharField(
+                    blank=True, max_length=254, null=True)),
             ],
             options={
                 'verbose_name_plural': 'Categories',
@@ -28,28 +31,46 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Product',
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('sku', models.CharField(blank=True, max_length=254, null=True)),
+                ('id', models.BigAutoField(
+                    auto_created=True, primary_key=True, serialize=False,
+                    verbose_name='ID')),
+                ('sku', models.CharField(
+                    blank=True, max_length=254, null=True)),
                 ('name', models.CharField(max_length=254)),
-                ('author', models.CharField(blank=True, max_length=254, null=True)),
-                ('brand', models.CharField(blank=True, max_length=254, null=True)),
+                ('author', models.CharField(
+                    blank=True, max_length=254, null=True)),
+                ('brand', models.CharField(
+                    blank=True, max_length=254, null=True)),
                 ('description', models.TextField()),
                 ('price', models.DecimalField(decimal_places=2, max_digits=6)),
-                ('image_url', models.URLField(blank=True, max_length=1024, null=True)),
-                ('image', models.ImageField(blank=True, null=True, upload_to='')),
-                ('category', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, to='products.category')),
+                ('image_url', models.URLField(
+                    blank=True, max_length=1024, null=True)),
+                ('image', models.ImageField(
+                    blank=True, null=True, upload_to='')),
+                ('category', models.ForeignKey(
+                    blank=True, null=True,
+                    on_delete=django.db.models.deletion.SET_NULL,
+                    to='products.category')),
             ],
         ),
         migrations.CreateModel(
             name='Review',
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('rating', models.IntegerField(choices=[(5, '5 Stars'), (4, '4 Stars'), (3, '3 Stars'), (2, '2 Stars'), (1, '1 Star'), (0, '0 Stars')], default=5)),
+                ('id', models.BigAutoField(
+                    auto_created=True, primary_key=True,
+                    serialize=False, verbose_name='ID')),
+                ('rating', models.IntegerField(
+                    choices=[(5, '5 Stars'), (4, '4 Stars'), (3, '3 Stars'),
+                    (2, '2 Stars'), (1, '1 Star'), (0, '0 Stars')], default=5)),
                 ('description', models.TextField(blank=True)),
                 ('approved', models.BooleanField(default=False)),
                 ('created_on', models.DateTimeField(auto_now_add=True)),
-                ('author', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='reviewer', to=settings.AUTH_USER_MODEL)),
-                ('product', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='reviews', to='products.product')),
+                ('author', models.ForeignKey(
+                    on_delete=django.db.models.deletion.CASCADE,
+                    related_name='reviewer', to=settings.AUTH_USER_MODEL)),
+                ('product', models.ForeignKey(
+                    on_delete=django.db.models.deletion.CASCADE,
+                    related_name='reviews', to='products.product')),
             ],
             options={
                 'ordering': ['created_on'],

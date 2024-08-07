@@ -10,6 +10,7 @@ from .forms import ReviewForm
 
 # Create your views here.
 
+
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
@@ -60,6 +61,7 @@ def all_products(request):
 
     return render(request, 'products/products.html', context)
 
+
 def product_detail(request, product_id):
     """ A view to show individual product details """
 
@@ -83,7 +85,6 @@ def product_detail(request, product_id):
 
     review_form = ReviewForm()
 
-
     context = {
         'product': product,
         "reviews": reviews,
@@ -92,6 +93,7 @@ def product_detail(request, product_id):
     }
 
     return render(request, 'products/product_detail.html', context)
+
 
 @login_required
 def add_product(request):
@@ -117,6 +119,7 @@ def add_product(request):
     }
 
     return render(request, template, context)
+
 
 @login_required
 def edit_product(request, product_id):
@@ -146,6 +149,7 @@ def edit_product(request, product_id):
 
     return render(request, template, context)
 
+
 @login_required
 def delete_product(request, product_id):
     """ Delete a product from the store """
@@ -157,6 +161,7 @@ def delete_product(request, product_id):
     product.delete()
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))
+
 
 def review_edit(request, review_id, product_id):
     """
@@ -179,6 +184,7 @@ def review_edit(request, review_id, product_id):
                 request, messages.ERROR, 'Error updating review!')
 
     return HttpResponseRedirect(reverse('product_detail', args=[product.id]))
+
 
 def review_delete(request, review_id, product_id):
     """

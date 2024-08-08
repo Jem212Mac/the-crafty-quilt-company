@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://the-crafty-quilt-company-c484a7353540.herokuapp.com/sitemap.xml

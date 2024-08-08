@@ -44,7 +44,7 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="book-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="book-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Books
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="book-link">
@@ -54,6 +54,12 @@
                 <a href="{% url 'products' %}?category=quilt_as_you_go_books" class="dropdown-item">Quilt As-You-Go Books</a>
                 <a href="{% url 'products' %}?category=beginners_books,free_motion_books,pattern_books,quilt_as_you_go_books" class="dropdown-item">All Books</a>
             </div>
+        </li>
+
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'contact' %}" id="homecontact-link">
+                Contact Us
+            </a>
         </li>
     </ul>
 </div>

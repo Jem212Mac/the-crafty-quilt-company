@@ -27,6 +27,10 @@ body {
     width: fit-content;
 }
 
+#delivery-banner {
+    background-color: #4e335e;
+}
+
 .shop-now-button {
     background: black;
     color: white;
@@ -269,7 +273,7 @@ input[name='q']::placeholder {
 /* Footer */
 .footer {
     height: 250px;
-    background-color: #000000;
+    background-color: #4e335e;
 }
 
 #social-networks {
@@ -284,6 +288,13 @@ input[name='q']::placeholder {
     font-size: 160%;
     padding: 5%;
     color: rgb(255, 255, 255);
+}
+
+#mc_embed_signup {
+    background: #4e335e;
+    color: white;
+    font: 14px Arial, sans-serif;
+    width: 400px;
 }
 
 
@@ -310,6 +321,17 @@ input[name='q']::placeholder {
 
     body {
         height: calc(100vh - 130px);
+    }
+
+    .footer {
+        height: 250px;
+    }
+
+    #mc_embed_signup {
+        background: #4e335e;
+        color: white;
+        font: 8px Arial, sans-serif;
+        width: 200px;
     }
 }
 

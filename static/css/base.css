@@ -272,7 +272,7 @@ input[name='q']::placeholder {
 
 /* Footer */
 .footer {
-    height: 250px;
+    height: 300px;
     background-color: #4e335e;
 }
 
@@ -282,6 +282,7 @@ input[name='q']::placeholder {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    color: white;
 }
 
 #social-networks i {
@@ -324,7 +325,7 @@ input[name='q']::placeholder {
     }
 
     .footer {
-        height: 250px;
+        height: 300px;
     }
 
     #mc_embed_signup {

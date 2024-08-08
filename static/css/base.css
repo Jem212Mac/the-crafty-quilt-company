@@ -268,8 +268,8 @@ input[name='q']::placeholder {
 
 /* Footer */
 .footer {
-    height: 60px;
-    background-color: #000;
+    height: 250px;
+    background-color: #000000;
 }
 
 #social-networks {

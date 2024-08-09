@@ -53,10 +53,10 @@
                         </p>
                     {% endif %}
                     <div>
-                        <a class="btn btn-black rounded-0 text-uppercase mt-5 mb-5" href="{% url 'product_detail' product.id %}">
+                        <a class="btn btn-black rounded-0 text-uppercase mt-5" href="{% url 'product_detail' product.id %}">
                             <span class="text-uppercase">Product Details</span>
                         </a>
-                        <a class="btn btn-outline-black rounded-0 mt-5 mb-5" href="{% url 'remove_from_wishlist' product.id %}">
+                        <a class="btn btn-outline-black rounded-0 mt-5" href="{% url 'remove_from_wishlist' product.id %}">
                             <span class="text-uppercase">Remove from wishlist</span>
                         </a>
                     </div>

@@ -102,17 +102,6 @@
                 </div>
             </div>
         </div>
-        <!-- Display Count of Reviews -->
-        <div class="row">
-            <div class="col-12">
-                <strong class="text-secondary">
-                    <i class="far fa-comments"></i> {{ review_count }}
-                </strong>
-            </div>
-            <div class="col-12">
-                <hr>
-            </div>
-        </div>
         <!-- Display Reviews -->
         <div class="row">
             <div class="col-md-8 card mb-3 mt-3 py-3 px-4 bg-transparent">
@@ -153,11 +142,13 @@
             <div class="card-body mb-5">
             {% if user.is_authenticated %}
                 <h5>Write a review:</h5>
-                <p>Posting as: {{ user.username }}</p>
                 <form id="reviewForm" method="post" style="margin-top: 1.3em;">
+                    {% csrf_token %}
                     {{ review_form | crispy }}
                     {% csrf_token %}
-                    <button id="submitButton" type="submit" class="btn btn-secondary">Submit</button>
+                    <div class="text-right">
+                        <button id="submitButton" type="submit" class="btn btn-black rounded-0 text-uppercase mt-5">Submit</button>
+                    </div>
                 </form>
             {% else %}
                 <p><a href="{% url 'account_login' %}">Log In</a> to write a review</p>
@@ -190,6 +181,5 @@
 
 {% block postloadjs %}
 {{ block.super }}
-<script type="text/javascript" src="{% static 'products/js/reviews.js' %}"></script>
 {% include 'products/includes/quantity_input_script.html' %}
 {% endblock %}

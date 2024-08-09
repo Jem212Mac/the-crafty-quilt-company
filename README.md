@@ -1,131 +1,126 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Crafty Quilt Company
 
-Welcome Jemima MacKenzie,
+![The Crafty Quilt Company]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Live Version: [The Crafty Quilt Company](https://the-crafty-quilt-company-c484a7353540.herokuapp.com/)
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
 
-## Gitpod Reminders
+Repository: [GitHub Repo](https://github.com/Jem212Mac/the-crafty-quilt-company)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Developed by [Jemima MacKenzie](https://github.com/Jem212Mac).
 
-`python3 -m http.server`
+## About
 
-A blue button should appear to click: _Make Public_,
+## UX Design
 
-Another blue button should appear to click: _Open Browser_.
+![Color Scheme]()
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+In terms of typography, I chose:
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+At the outset of the project, I created the following wireframe designs using [Figma](https://www.figma.com/):
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+## Database Schema
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The planning and design of the wireframes helped me to decide on the database schema I would need, and this was created using [LucidChart](https://www.lucidchart.com/):
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+![The Crafty Quilt Company ERD]()
 
-### Connecting your Mongo database
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+## Features & User Story Planning
 
-------
+In order to plan the project, I used agile methodologies.  I created a project kanban board and populated it with a number of user stories (see below), based on the following epics.
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+I decided on three iterations for the project.  My main aim for the first iteration was to complete most of the user stories, while the second iteration would focus more on, and the third iteration would focus more on testing the website and completing documentation.  I used MoSCow prioritisation to prioritise the user stories and tasks in each iteration.  I estimated user stories and tasks based on the following user story since I thought it was one of the smallest pieces of work to be undertaken.  Giving this an estimate of one story point, I estimated other user stories relative to this one using a Fibonnaci sequence.
 
-**June 18, 2024,** Add Mongo back into template
+![Baseline for estimates]()
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+Since I had no 'velocity' measures to use to give an indication of how many story points I could complete in an iteration, I estimated, based on my baseline user story, that I could complete 50 story points per iteration.  As such, I ensured that iteration one included no more than 30 story points (60%) that were MUST HAVE or SHOULD HAVE priorities.  The kanban board for iteration one at the outset looked like this:
 
-**May 28 2024:** Fix Mongo and Links installs
+Towards the end of Iteration 1, I found that I had completed all of the tasks and user stories for the iteration, but I had no time left spare.
 
-**April 26 2024:** Update node version to 16
+Based on my velocity measure for Iteration 1, for Iteration 2, I included user stories totalling 5o story points, with MUST HAVE and SHOULD HAVE priorities totalling ? story points (less than 60%):
 
-**September 20 2023:** Update Python version to 3.9.17.
+At the end of Iteration 2, however, I found that I did not have time to complete the following user stories, and I moved them back to the backlog.  In Iteration 2, I completed ? story points.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+For Iteration 3 I included user stories totally ? story points with MUST HAVE and SHOULD HAVE priorities totalling ? story points (less than 60%):
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Technologies used
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- ### Languages:
+    
+    + [Python 3.12.2](https://www.python.org/downloads/release/python-385/): the primary language used to develop the server-side of the website.
+    + [JS](https://www.javascript.com/): the primary language used to develop interactive components of the website.
+    + [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): the markup language used to create the website.
+    + [CSS](https://developer.mozilla.org/en-US/docs/Web/css): the styling language used to style the website.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- ### Frameworks and libraries:
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+    + [Django](https://www.djangoproject.com/): python framework used to create all the logic.
+    + [Bootstrap](https://getbootstrap.com/): used for styling the project.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- ### Databases:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    + Code Institute PostgreSQL Database: database used to store all the data.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- ### Other tools:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    + [Git](https://git-scm.com/): the version control system used to manage the code.
+    + [Pip3](https://pypi.org/project/pip/): the package manager used to install the dependencies.
+    + [Gunicorn](https://gunicorn.org/): the webserver used to run the website.
+    + [Django-allauth](https://django-allauth.readthedocs.io/en/latest/): the authentication library used to create the user accounts.
+    + [Django-crispy-forms](https://django-cryptography.readthedocs.io/en/latest/) was used to control the rendering behavior of Django forms.
+    + [Heroku](https://id.heroku.com/login): the cloud platform used to host the website.
+    + [GitHub](https://github.com/): used to host the website's source code.
+    + [Chrome DevTools](https://developer.chrome.com/docs/devtools/open/) was used to debug the website.
+    + [Font Awesome](https://fontawesome.com/) was used to create the icons used in the website.
+    + [Google Fonts](https://fonts.google.com/) was used to select fonts for the website.
+    + [Favicon.io](https://favicon.io/) was used to generate a favicon for the website.
+    + [Coolers](https://coolors.co/) was used to generate the colour scheme for the website.
+    + [LucidChart](https://www.lucidchart.com/) was used to create the ERD.
+    + [Figma](https://www.figma.com/) was used to create wireframes for the site.
+    + [Am I Responsive](https://ui.dev/amiresponsive?) was used to create the headline image for the README.md
+    + [W3C Validator](https://validator.w3.org/) was used to validate HTML5 code for the website.
+    + [W3C CSS validator](https://jigsaw.w3.org/css-validator/) was used to validate CSS code for the website.
+    + [JShint](https://jshint.com/) was used to validate JS code for the website.
+    + [PEP8](https://pep8ci.herokuapp.com/) was used to validate Python code for the website.
+    + [Table to Markdown](https://tabletomarkdown.com/) was used to convert excel tables into markdown for the TESTING.md file.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Local Development
+Gitpod was used as the IDE for local development of the application and GitHub was used for version control.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Testing
+For details of all testing performed, including validator testing and manual testing, please see [TESTING.md](TESTING.md).  This also includes details of bugs found and resolved throughout the development process.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Forking
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+If you would like to work on this code you can click on the repository here (https://github.com/Jem212Mac/the-crafty-quilt-company) and click on 'Fork' to create your own fork of the code to work on.
 
-------
+## Deployment
 
-## FAQ about the uptime script
+The application was deployed to Heroku.  In order to deploy to Heroku, the following steps were performed:
 
-**Why have you added this script?**
+1. 'pip3 install gunicorn~=20.1' was used in the IDE terminal to install a production ready webserver for Heroku.
+2. The command 'Pip3 freeze --local > requirements.txt' was used in the IDE terminal in order to create a requirements.txt file which included the dependencies for the project.  Heroku needs this file to install the required dependencies before the application is run.
+3. A Procfile containing 'web: gunicorn gabbygourmand.wsgi' was created in the root of the project directory.
+4. ,'.herokuapp.com' was added to the allowed hosts in the project settings.py file.
+5. I created a new Heroku account here: (https://id.heroku.com/login).
+6. From the Heroku dashboard I clicked 'Create new app' and input a unique name for the app, a region, and clicked 'create app'.
+7. I clicked on the Settings tab and went to the Config Vars section.
+8. I added the appropriate details to Config Vars.
+9. I clicked on the 'Deploy' tab, chose Github as my deployment method, and searched for my github repository to connect.
+10. For this project I chose to automatically deploy with every git push.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Future Enhancements
 
-**How will this affect me?**
+Given more time there are a number of enhancements I would like to make to the website:
+1. I would allow Sign Up or Sign In with social media accounts.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Credits & Acknowledgements
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+ - On a number of occasions I contacted Tutor Support to help me better understand certain coding practices and techniques better and I would like to thank them for their help and support.
+ - I would like to thank my mentor, Iuliia Konovalova, for her guidance during this project.

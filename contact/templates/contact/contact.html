@@ -1,6 +1,5 @@
 {% extends "base.html" %}
 {% load static %}
-{% load crispy_forms_tags %}
 
 {% block page_header %}
     <div class="container header-container">
@@ -11,17 +10,26 @@
 {% endblock %}
 
 {% block content %}
-<div class="container">
-    <div class="row">
-        <div class="col-12 col-md-6 my-5">
-            <!-- Contact Us Form -->
-            <h2>Contact Us</h2>
-            <form method="post">
-                {{ contact_form | crispy }}
-                {% csrf_token %}
-                <button class="btn btn-secondary" id="submitButton" type="submit">Submit</button>
-            </form>
+<div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 mb-5">
+                <hr>
+                <h2 class="logo-font mb-4">Contact Us</h2>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-6 mb-5">
+                <form method="post" class="form mb-2">
+                    {% csrf_token %}
+                    {{ contact_form | crispy }}
+                    <div class="text-right">
+                        <button class="btn btn-black rounded-0" id="submitButton" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
-</div>
 {% endblock %}

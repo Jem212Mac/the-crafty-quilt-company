@@ -272,7 +272,7 @@ input[name='q']::placeholder {
 
 /* Footer */
 .footer {
-    height: 300px;
+    height: 270px;
     background-color: #4e335e;
 }
 
@@ -325,12 +325,10 @@ input[name='q']::placeholder {
     }
 
     .footer {
-        height: 300px;
+        height: 230px;
     }
 
     #mc_embed_signup {
-        background: #4e335e;
-        color: white;
         font: 8px Arial, sans-serif;
         width: 200px;
     }

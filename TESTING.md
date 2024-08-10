@@ -6,12 +6,40 @@
 
 User story testing was performed throughout site development, for each new feature, before it was merged into the master file.  User story testing was based primarily on the acceptance criteria for each of the user stories.
 
-User Story [#1].
+
+User Story [#1](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/1).
 
 | Test Case ID | Test Condition / Objective                                                                                                                                                               | Test Steps                                                                                                            | Expected Results                                                                                                               | Status |
 | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ------ |
-| 1            | Check that if a shopper/user clicks on 'Shop Now' a list of all products available in the store is diplayed.  Each product should display a product image, name, category and price.     | Navigate to the home page of the site and click on 'Shop Now'.                                                        | A list of all products available in the store is displayed.  Each product displays a product image, name, category, and price. | Passed |
-| 2            | Check that if a shopper/user clicks on 'All Products' a list of all products available in the store is diplayed.  Each product should display a product image, name, category and price. | Navigate to the home page of the site and then navigate to 'All Products>All Products' from the main site navigation. | A list of all products available in the store is displayed.  Each product displays a product image, name, category, and price. | Passed |
+| 1            | Check that if a user clicks on 'Shop Now' a list of all products available in the store is diplayed.  Each product should display a product image, name, category and price.     | Navigate to the home page of the site and click on 'Shop Now'.                                                        | A list of all products available in the store is displayed.  Each product displays a product image, name, category, and price. | Passed |
+| 2            | Check that if a user clicks on 'All Products' a list of all products available in the store is diplayed.  Each product should display a product image, name, category and price. | Navigate to the home page of the site and then navigate to 'All Products>All Products' from the main site navigation. | A list of all products available in the store is displayed.  Each product displays a product image, name, category, and price. | Passed |
+
+
+User Story [#2](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/2).
+
+| Test Case ID | Test Condition / Objective                                                                                                              | Test Steps                                                                        | Expected Results                                                                        | Status |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ------ |
+| 1            | Check that if a user clicks on a product image on the products listing page, they are taken to a product details page for that product. | Click on a product image from the product listings page.                          | The user id taken to a product details page.                                            | Passed |
+| 2            | Check that the product details page displays the product image, name, price, category and a description of the product.                 | Look for a product image, name, price, category, and description for the product. | A product image, name, price, category, and description for the product is displayed.   | Passed |
+| 3            | Check that the product details page displays a selector for quantity and buttons to 'keep shopping', and 'add to bag'.                  | Look for a quantity selector and buttons to 'keep shopping' and 'add to bag'.     | A quantity selector, a 'keep shopping' button and an 'add to bag' button are displayed. | Passed |
+
+
+User Story [#11](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/11).
+
+| Test Case ID | Test Condition / Objective                                             | Test Steps                                      | Expected Results                                                | Status |
+| ------------ | ---------------------------------------------------------------------- | ----------------------------------------------- | --------------------------------------------------------------- | ------ |
+| 1            | Check that a user can sort on category of product in ascending order.  | Navigate to 'All Products>By Category'          | The products are sorted by Category (A-Z); in ascending order.  | Passed |
+| 2            | Check that a user can sort on category of product in descending order. | Change to Category (Z-A) via the sort selector. | The products are sorted by Category (Z-A); in descending order. | Passed |
+
+
+User Story [#12](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/11).
+
+| Test Case ID | Test Condition / Objective                                                                | Test Steps                                                                                                                                                                      | Expected Results                                                                     | Status |
+| ------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------ |
+| 1            | Check if the user can search for a product using a word in the product name field.        | Input a word/words into the search bar that is present in at least one product name and check that all products with that word or words in the name are listed.                 | All products with that word or words in the product description field are displayed. | Passed |
+| 2            | Check if the user can search for a product using a word in the product description field. | Input a word/words into the search bar that is present in at least one product description and check that all products with that word or words in the description are listed.   | All products with that word or words in the product description field are displayed. | Passed |
+| 3            | Check if the user can search for a product using a word in the product author field.      | Input a word/words into the search bar that is present in at least one product author field and check that all products with that word or words in the author field are listed. | All products with that word or words in the product author field are displayed.      | Passed |
+| 4            | Check if the user can search for a product using a word in the product brand field.       | Input a word/words into the search bar that is present in at least one product brand field and check that all products with that word or words in the brand field are listed.   | All products with that word or words in the product brand field are displayed.       | Passed |
 
 ---
 

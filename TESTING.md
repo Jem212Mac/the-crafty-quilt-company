@@ -116,6 +116,51 @@ User Story [#19](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/19
 | ------------ | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------ |
 | 1            | Check that an order confirmation screen is displayed to a user after they make a purchase. | Add one or more products to the shopping bag.  Select 'secure checkout' and input delivery details and card details to make a purchase. | An order confirmation screen should be displayed after a successful purchase with details of what was ordered and the cost. | Passed |
 
+
+User Story [#17](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/17).
+
+
+User Story [#5](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/5).
+
+
+User Story [#6](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/6).
+
+
+User Story [#8](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/8).
+
+
+User Story [#7](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/7).
+
+
+User Story [#9](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/9).
+
+
+User Story [#18](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/18).
+
+
+User Story [#25](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/25).
+
+
+User Story [#26](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/26).
+
+
+User Story [#27](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/27).
+
+
+User Story [#30](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/30).
+
+
+User Story [#31](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/31).
+
+
+User Story [#34](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/34).
+
+
+User Story [#28](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/28).
+
+
+User Story [#29](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/29).
+
 ---
 
 ## Usability / User Acceptance Testing

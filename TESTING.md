@@ -109,6 +109,13 @@ User Story [#16](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/16
 | 1            | Check that a logged in user can input their delivery details when making a purchase and select to save those delivery details.            | Log in.  Add one or more products to the shopping bag and select 'secure checkout'.  Add delivery details for the purchase and select to save as default delivery details.  Enter card details to make the purchase.                | The order should be processed with those delivery details and the user should receive an order confirmation message. | Passed |
 | 2            | Check that saved delivery details are saved to the the users profile and that the saved details are prepopulated for their next purchase. | Having made the above purchase, select My Profile and check that the delivery details have been saved to the user's profile.  Process another purchase and check that the delivery details are prepopulated at the checkout screen. | The default delivery details should be saved to the user profile and should be prepopulated for their next purchase. | Passed |
 
+
+User Story [#19](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/19).
+
+| Test Case ID | Test Condition / Objective                                                                 | Test Steps                                                                                                                              | Expected Results                                                                                                            | Status |
+| ------------ | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 1            | Check that an order confirmation screen is displayed to a user after they make a purchase. | Add one or more products to the shopping bag.  Select 'secure checkout' and input delivery details and card details to make a purchase. | An order confirmation screen should be displayed after a successful purchase with details of what was ordered and the cost. | Passed |
+
 ---
 
 ## Usability / User Acceptance Testing

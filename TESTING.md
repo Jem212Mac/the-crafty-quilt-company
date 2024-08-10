@@ -94,6 +94,21 @@ User Story [#14](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/14
 | 5            | Check that user cannot select less than 1 product from the shopping bag page.                                    | Once a product has been added to the bag, navigate to the shopping page and and use the - button on the quantity bar to try to select less than one. | The - button should be disabled at 1 and should not allow the user to select less than 1.   | Failed |
 | 6            | Check that user cannot select more than 99 of a product from the shopping bag page.                              | Once a product has been added to the bag, navigate to the shopping page and and use the + button on the quantity bar to try to select more than 99.  | The + button should be disabled at 99 and should not allow the user to select more than 99. | Failed |
 
+
+User Story [#15](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/15).
+
+| Test Case ID | Test Condition / Objective                                                     | Test Steps                                                                   | Expected Results                                                                                                                               | Status  |
+| ------------ | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| 1            | Check that a user can checkout the selections in their bag to make a purchase. | Add one or more products to the shopping bag and click on 'secure checkout'. | The user is taken to a screen where they can see their order details and can input their delivery details and card details to make a purchase. | Passed. |
+
+
+User Story [#16](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/16).
+
+| Test Case ID | Test Condition / Objective                                                                                                                | Test Steps                                                                                                                                                                                                                          | Expected Results                                                                                                     | Status |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------ |
+| 1            | Check that a logged in user can input their delivery details when making a purchase and select to save those delivery details.            | Log in.  Add one or more products to the shopping bag and select 'secure checkout'.  Add delivery details for the purchase and select to save as default delivery details.  Enter card details to make the purchase.                | The order should be processed with those delivery details and the user should receive an order confirmation message. | Passed |
+| 2            | Check that saved delivery details are saved to the the users profile and that the saved details are prepopulated for their next purchase. | Having made the above purchase, select My Profile and check that the delivery details have been saved to the user's profile.  Process another purchase and check that the delivery details are prepopulated at the checkout screen. | The default delivery details should be saved to the user profile and should be prepopulated for their next purchase. | Passed |
+
 ---
 
 ## Usability / User Acceptance Testing

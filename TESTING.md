@@ -167,6 +167,11 @@ User Story [#9](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/9).
 
 User Story [#18](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/18).
 
+| Test Case ID | Test Condition / Objective                                                                                 | Test Steps                                                                                                                                                                                     | Expected Results                                                                                 | Status |
+| ------------ | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------ |
+| 1            | Check that a non logged in user receives an email confirmation of their order after a successful purchase. | Do not login.  Add one or more items to the shopping bag and select secure checkout.  Add your email address, delivery details, and payment details at the checkout and select Complete Order. | If the purchase is successful, the user should receie an email with confirmation of their order. | Passed |
+| 2            | Check that a logged in user receives an email confirmation of their order after a successful purchase.     | Login.  Add one or more items to the shopping bag and select secure checkout.  Add/update your email address, delivery details, and payment details at the checkout and select Complete Order. | If the purchase is successful, the user should receie an email with confirmation of their order. | Passed |
+
 
 User Story [#25](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/25).
 

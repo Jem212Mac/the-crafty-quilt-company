@@ -130,8 +130,8 @@
                                     {{ review.created_on }}
                                 </span> wrote:
                             </p>
+                                {{ review.get_rating_display | linebreaks }}
                                 <div id="review{{ review.id }}">
-                                    {{ review.get_rating_display | linebreaks }}
                                     {{ review.description | linebreaks }}
                                 </div>
                                 {% if not review.approved and review.author == user %}

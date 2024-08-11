@@ -175,6 +175,12 @@ User Story [#18](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/18
 
 User Story [#25](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/25).
 
+| Test Case ID | Test Condition / Objective                                                                | Test Steps                                                | Expected Results                                                       | Status |
+| ------------ | ----------------------------------------------------------------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------- | ------ |
+| 1            | Check that a logged in superuser can add new products to the site via product management. | Login in as a superuser.  Navigate to 'Manage Products'.  | The user should be able to input and submit details for a new product. | Passed |
+| 2            | Check that a user that is not a superuser cannot access product management.               | Login as a standard user.  Navigate to 'Manage Products'. | Manage Products' should not be visible to the user.                    | Passed |
+| 3            | Check that user not logged in cannot access product management.                           | Do not login.  Navigate to 'Manage Products'.             | Manage Products' should not be visible to the user.                    | Passed |
+
 
 User Story [#26](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/26).
 

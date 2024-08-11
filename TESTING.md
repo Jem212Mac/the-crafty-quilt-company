@@ -194,6 +194,13 @@ User Story [#26](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/26
 
 User Story [#27](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/27).
 
+| Test Case ID | Test Condition / Objective                                                                                                                                   | Test Steps                                                                                                          | Expected Results                                                                        | Status |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ------ |
+| 1            | Check that a logged in superuser can see a Delete link under products on the product listings page.                                                          | Login as a superuser.  Navigate to 'All Products'.                                                                  | The superuser should see a Delete link under each product in the product listings page. | Passed |
+| 2            | Check that a logged in superuser can see an Delete link under products on the product details page.                                                          | Login as a superuser.  Navigate to 'All Products'.  Click on a product.                                             | The superuser should see a Delete link under the product in the product details page.   | Passed |
+| 3            | Check that a logged in user can click on the Delete link on either the product listing or product details page and it will delete the product from the site. | Click on a Delete link from the product listings page or a Delete link under product details.                       | The product should be deleted and will no longer be available to purchase.              | Passed |
+| 4            | Check that a user that is not a superuser cannot Delete a product.                                                                                           | Do not login, or login as a standard user (not superuser) and navigate to a product listing and/or product details. | The user should not see a link to Delete the product.                                   | Passed |
+
 
 User Story [#30](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/30).
 

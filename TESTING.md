@@ -140,6 +140,13 @@ User Stories [#5](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/5
 
 User Story [#6](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/6).
 
+| Test Case ID | Test Condition / Objective                                                                                      | Test Steps                                                                                         | Expected Results                                                                                                                                                        | Status |
+| ------------ | --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 1            | Check that once a user has registered and verified ther email, thay can login with their username and password. | Login as a registered and verified user with a username and password.                              | The user should see a message to let them know they have successfully logged in.                                                                                        | Passed |
+| 2            | Check that once they log in, they can access their user profile.                                                | Login as a registered and verified user with a username and password and navigate to user profile. | The user should be able to access their user profile.                                                                                                                   | Passed |
+| 3            | If they are a superuser, check that they can access product management.                                         | Login as a superuser and navigate to 'Manage Products'.                                            | The user should be able to access product management to add a product.                                                                                                  | Passed |
+| 4            | Check that if they logout they can no longer access their user profile or product management.                   | Navigate to and select logout.                                                                     | The user should see a message to let them know they have successfully logged out and they should not longer be able to access their user profile or product management. | Passed |
+
 
 User Story [#7](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/7).
 

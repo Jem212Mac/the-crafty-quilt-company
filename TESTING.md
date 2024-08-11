@@ -150,6 +150,11 @@ User Story [#6](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/6).
 
 User Story [#7](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/7).
 
+| Test Case ID | Test Condition / Objective                                                                                             | Test Steps                                               | Expected Results                                                                                                                                                                                                                   | Status |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 1            | Check that a user can click got on forgot password and they will be sent an email with a link to reset their password. | Select login and then select forget password.            | The user will be asked to input their email address and can click on Reset My Password.  They will be sent and email with a link to reset their password.                                                                          | Passed |
+| 2            | Check that a user can use the link to change / reset their password.                                                   | From the email, click on the link to reset the password. | The user will be asked to input a new password twice to change their password.  They will see a message to let them know they have successfully changed their password and they should then be able to use that password to login. | Passed |
+
 
 User Story [#9](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/9).
 

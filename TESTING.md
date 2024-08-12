@@ -222,6 +222,12 @@ User Story [#34](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/34
 
 User Story [#28](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/28).
 
+| Test Case ID | Test Condition / Objective                                                                                    | Test Steps                                                                                                                        | Expected Results                                                                                                                                                        | Status |
+| ------------ | ------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 1            | Check that a logged in user can add products to their wishlist to purchase at a later date.                   | Login.  Navigate to one or more products and click 'Add to Wishlist'.  Navigate to 'My Wishlist' to view the added products.      | The user will see a message to let them know the products were added to the wishlist.  The products should be added and visible in the user's wishlist.                 | Passed |
+| 2            | Check that a logged in user can remove products from their wishlist.                                          | Login.  Navigate to 'My Wishlist'.  Select a product in the wishlist and click on 'Remove from Wishlist'.                         | The user will see a message to let them know the products were removed the wishlist.  The product should be removed from the wishlist.                                  | Passed |
+| 3            | Check that if a user has not logged in, they cannot access a wishlist, and cannot add products to a wishlist. | Do not login.  Navigate to 'My Wishlist'. Navigate to one or more products and click 'Add to Wishlist'. Navigate to 'My Wishlist' | There should be no option visible for the user to view 'My Wishlist'.  When the user clicks on 'Add to Wishlist' for a product they will be directed to the login page. | Passed |
+
 
 User Story [#29](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/29).
 

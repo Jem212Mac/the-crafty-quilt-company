@@ -286,7 +286,7 @@ Testing was performed throughout the development process, and I tried to fix bug
 
 ### CSS Validation:
 
-- [Full CSS Validation Report]()
+- [Full CSS Validation Report](documentation/validation/css_validation.png)
 
 - No errors or warnings were found when passing through the official [W3C (Jigsaw)](https://jigsaw.w3.org/css-validator/) validator.
 

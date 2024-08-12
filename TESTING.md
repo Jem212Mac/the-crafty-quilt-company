@@ -231,7 +231,12 @@ User Story [#28](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/28
 
 User Story [#29](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/29).
 
+| Test Case ID | Test Condition / Objective                                                    | Test Steps                                                                                                                 | Expected Results                                                                                                                | Status |
+| ------------ | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 1            | Check that a user can view items in their wishlist and add them to their bag. | Login.  Navigate to 'My Wishlist'.  Select an Item in the wishlist and click on 'Product Details'.  Click on 'Add to Bag'. | The user should see a message to confirm the product was added to their bag and should be able to continue with their shopping. | Passed |
+
 ---
+
 
 ## Usability / User Acceptance Testing
 

@@ -214,6 +214,11 @@ User Stories [#30](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/
 
 User Story [#34](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/34).
 
+| Test Case ID | Test Condition / Objective                                                                                                                             | Test Steps                                                                                             | Expected Results                                                                                                            | Status |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 1            | Check that a user can complete a Contact Us for with their email address and some description to contact the site owner.                               | Navigate to 'Contact Us' on the main navigation bar.  Complete the Contact Us form and click 'Submit'. | The User is able to complete the form giving their name, email address, and a message.                                      | Passed |
+| 2            | Check that on completion of a Contact Us form, the user receives a message to confirm the form submission and to let them know when to expect a reply. | Navigate to 'Contact Us' on the main navigation bar.  Complete the Contact Us form and click 'Submit'. | When th user submits their form, they will see a message to let them know it was received and when they can expect a reply. | Passed |
+
 
 User Story [#28](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/28).
 

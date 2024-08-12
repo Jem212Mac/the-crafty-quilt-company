@@ -292,9 +292,9 @@ Testing was performed throughout the development process, and I tried to fix bug
 
 ### JS Validation:
 
-- [Full JS Validation Report]()
+- [Full JS Validation Report](documentation/validation/js_validation_report.pdf)
 
-- No errors or warning messages were found when passing through the official [JSHint](https://www.jshint.com/) validator, except for an error related to the use of Bootstrap.
+- No errors or warning messages were found when passing through the official [JSHint](https://www.jshint.com/) validator, except for an errors related to the use of Bootstrap and Stripe.
 
 ### Python Validation:
 

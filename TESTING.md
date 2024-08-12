@@ -280,9 +280,9 @@ Testing was performed throughout the development process, and I tried to fix bug
 
 ### HTML Validation:
 
-- [Full HTML Validation Report]()
+- [Full HTML Validation Report](documentation/validation/html_validation_report.pdf)
 
-- No errors or warnings were found when passing through the official [W3C](https://validator.w3.org/) validator.
+- No errors were found when passing through the official [W3C](https://validator.w3.org/) validator except for errors in the add_product and edit_product templates due to the use of crispy forms. This checking was done manually by copying the view page source code (Ctrl+U) and pasting it into the validator.
 
 ### CSS Validation:
 

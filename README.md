@@ -1,6 +1,6 @@
 # The Crafty Quilt Company
 
-![The Crafty Quilt Company]()
+![The Crafty Quilt Company](documentation/am_i_responsive.png)
 
 Live Version: [The Crafty Quilt Company](https://the-crafty-quilt-company-c484a7353540.herokuapp.com/)
 
@@ -13,7 +13,7 @@ Developed by [Jemima MacKenzie](https://github.com/Jem212Mac).
 
 ## UX Design
 
-![Color Scheme]()
+![Color Scheme](documentation/colour_scheme.png)
 
 In terms of typography, I chose:
 

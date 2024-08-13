@@ -15,7 +15,7 @@ Stripe Test Card for Authentication: 4000 0025 0000 3155
 
 ## About
 
-This is a B2C ecommerce website targeted at people who love beautiful handmade patchwork quilts.  The website offers consummers the ability to buy already finished handmade quilts, or to buy everything they might need to be able to make a colourful patchwork quilt for themselves (e.g fabric, thread, batting, tools and accesssories, and books to help learn different quilting and patchwork techniques).  The home page for the site provides a welcoming and colourful hero image demonstrating the type of quilts that can be bought or made, and the 'shop now' button allows the consumer to dive straight in an look at all the store has to offer.  The site includes a main navigation allowing the user to view products by category, price, and name, and includes a search bar that allows the customer to search for products by keywords in the product name, description, brand or author.  See selected screenshots (on different viewport sizes) below.
+This is a B2C ecommerce website targeted at people who love beautiful handmade patchwork quilts.  The website offers consumers the ability to buy already finished handmade quilts, or to buy everything they might need to make a colourful patchwork quilt for themselves (e.g fabric, thread, batting, tools and accesssories, and books to help learn different quilting and patchwork techniques).  The home page for the site provides a welcoming and colourful hero image demonstrating the type of quilts that can be bought or made, and the 'shop now' button allows the consumer to dive straight in and look at all the store has to offer.  The site includes a main navigation allowing the user to view products by category, price, and name, and includes a search bar that allows the customer to search for products by keywords in the product name, description, brand or author.  See selected screenshots (on different viewport sizes) below.
 
 ![Home Page on Desktop](documentation/home_page.png)
 
@@ -25,11 +25,11 @@ This is a B2C ecommerce website targeted at people who love beautiful handmade p
 
 ## UX Design
 
-The target audience for the site is anyone that loves colourful, handmade patchwork quilts and either wants to but them, or make them.  Since most of the products would be very colourful and bright, I wanted to make sure that the backdrop for the product images would be relatively plain and uncluttered in order to show the products in their full glory.  I did not want the backdrop to distract the customer's attention away from the stunningly colourful and bright products.  Therfore I chose a fairly simple colour scheme of mostly black and white with a small flourishes of colour in 'english violet':
+The target audience for the site is anyone that loves colourful, handmade, patchwork quilts and either wants to but them, or make them.  Since most of the products would be very colourful and bright, I wanted to make sure that the backdrop for the product images would be relatively plain and uncluttered in order to show the products in their full glory.  I did not want the backdrop to distract the customer's attention away from the stunningly colourful and bright products.  Therfore I chose a fairly simple colour scheme of mostly black and white with small flourishes of colour in 'english violet':
 
 ![Color Scheme](documentation/colour_scheme.png)
 
-In terms of typography, I chose to use only one font style (Lato).  This is a relatively plain but stylish font that would be easy to read and not distract the consumer from the brightly coloured and fancy products.
+In terms of typography, I chose to use only one font style (Lato).  This is a relatively plain, but stylish, font that would be easy to read and not distract the consumer from the brightly coloured and fancy products.
 
 ![Typography](documentation/lato.png)
 
@@ -51,6 +51,8 @@ The planning and design of the wireframes helped me to decide on the database sc
 
 ### Facebook Page
 
+The target audience for the site is most likely to be middle-aged women.  As such, I decided that this demographic was most likely to use facebook for social media, rather than twitter or instagram which usually attracts a younger audience.  Therefore I created a facebook business page and included a link to the page in the site.  See screenshots below.
+
 ![The Crafty Quilt Company Facebook Page 1](documentation/facebook_1.png)
 ![The Crafty Quilt Company Facebook Page 2](documentation/facebook_2.png)
 
@@ -59,8 +61,13 @@ The planning and design of the wireframes helped me to decide on the database sc
 
 In order to plan the project, I used agile methodologies.  I created a project kanban board and populated it with a number of user stories (see below), based on the following epics.
 
+ - Epic 1: Create a website that allows users to search for and purchase beautiful handmade quilts and materials and accessories to help make patchwork quilts themselves.  Includes user stories [#1](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/1), [#2](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/2), [#11](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/11), [#12](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/12), [#13](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/13), [#10](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/10), [#3](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/3), [#4](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/4), [#14](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/14), [#15](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/15), [#16](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/16), [#19](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/19), [#17](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/17), [#5](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/5), [#6](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/6), [#8](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/8), [#7](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/7), [#9](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/9), [#18](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/18).
+ - Epic 2: Create a website that allows users to write reviews for products sold on the site in order to help customers decide on their next purchase.  Includes user stories [#30](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/30) and [#31](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/31).
+ - Epic 3: Create a website that allows users to add products to their wishlist so they can purchase them at a later date.  Includes user stories [#28](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/28) and [#29](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/29).
+ - Epic 4: Create a website that allows users to contact the site owners and interact with the site via their facebook business page and newsletter.  Includes user story [#34](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/34).
+ - Epic 5: Create a website that allows superusers (store owners) to add, edit, and delete products from the site.  Includes user stories [#25](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/25), [#26](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/26), and [#27](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/27).
 
-I decided on three iterations for the project.  My main aim for the first iteration was to complete most of the user stories, while the second iteration would focus more on, and the third iteration would focus more on testing the website and completing documentation.  I used MoSCow prioritisation to prioritise the user stories and tasks in each iteration.  I estimated user stories and tasks based on the following user story since I thought it was one of the smallest pieces of work to be undertaken.  Giving this an estimate of one story point, I estimated other user stories relative to this one using a Fibonnaci sequence.
+I decided on three iterations for the project.  My main aim for the first two iterations was to complete most of the user stories and deploy it, while the third iteration would focus more on testing the website and completing documentation.  I used MoSCow prioritisation to prioritise the user stories and tasks in each iteration.  I estimated user stories and tasks based on the following user story since I thought it was one of the smallest pieces of work to be undertaken.  Giving this an estimate of one story point, I estimated other user stories relative to this one using a Fibonnaci sequence.
 
 ![Baseline for estimates](documentation/baseline_for_estimates.png)
 
@@ -72,20 +79,20 @@ Since I had no 'velocity' measures to use to give an indication of how many stor
 
 Towards the end of Iteration 1, I found that I had completed all of the tasks and user stories for the iteration, but I had no time left spare.
 
-Based on my velocity measure for Iteration 1, for Iteration 2, I included user stories totalling 5o story points, with MUST HAVE and SHOULD HAVE priorities totalling ? story points (less than 60%):
+Based on my velocity measure for Iteration 1, for Iteration 2, I included user stories totalling 44 story points (since I knew I would be taking at least one day off during this iteration), with MUST HAVE and SHOULD HAVE priorities totalling 26 story points (less than 60%):
 
 ![Iteration 2 Start](documentation/iteration_2_start.png)
 
-At the end of Iteration 2, however, I found that I did not have time to complete the following user stories, and I moved them back to the backlog.  In Iteration 2, I completed ? story points.
+At the end of Iteration 2, however, I found that I did not have time to complete the following user stories, and I moved them back to the backlog.  In Iteration 2, I completed 31 story points.
 
 ![Iteration 2 Start](documentation/iteration_2_end.png)
 
-For Iteration 3 I included user stories totally ? story points with MUST HAVE and SHOULD HAVE priorities totalling ? story points (less than 60%):
+For Iteration 3 I included user stories totally 50 story points with MUST HAVE and SHOULD HAVE priorities totalling 29 story points (less than 60%):
 
 ![Iteration 3 Start a](documentation/iteration_3_start_a.png)
 ![Iteration 3 Start b](documentation/iteration_3_start_b.png)
 
-At the end of Iteration 3, I completed all of the user stories except for two, which I marked as won't do and moved back to the backlog:
+At the end of Iteration 3, I completed all of the user stories except for two, which I marked as won't do and moved back to the backlog.  In iteration 3, I completed 46 story points.
 
 ![Iteration 3 End](documentation/iteration_3_end.png)
 

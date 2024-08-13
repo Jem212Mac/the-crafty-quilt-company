@@ -294,7 +294,7 @@ Testing was performed throughout the development process, and I tried to fix bug
 
 - [Full JS Validation Report](documentation/validation/js_validation_report.pdf)
 
-- No errors or warning messages were found when passing through the official [JSHint](https://www.jshint.com/) validator, except for an errors related to the use of Bootstrap and Stripe.
+- No errors or warning messages were found when passing through the official [JSHint](https://www.jshint.com/) validator, except for errors related to the use of Bootstrap and Stripe.
 
 ### Python Validation:
 
@@ -304,11 +304,8 @@ Testing was performed throughout the development process, and I tried to fix bug
 
 ---
 
-## Lighthouse Reports
+## Lighthouse Report
 
-### Home Page
-
-![Lighthouse Report - Home Page]()
-
+ - [Full Lighthouse Report](documentation/validation/lighthouse_report.pdf)
 
 ---

@@ -55,7 +55,7 @@ In order to plan the project, I used agile methodologies.  I created a project k
 
 I decided on three iterations for the project.  My main aim for the first iteration was to complete most of the user stories, while the second iteration would focus more on, and the third iteration would focus more on testing the website and completing documentation.  I used MoSCow prioritisation to prioritise the user stories and tasks in each iteration.  I estimated user stories and tasks based on the following user story since I thought it was one of the smallest pieces of work to be undertaken.  Giving this an estimate of one story point, I estimated other user stories relative to this one using a Fibonnaci sequence.
 
-![Baseline for estimates]()
+![Baseline for estimates](documentation/baseline_for_estimates.png)
 
 Since I had no 'velocity' measures to use to give an indication of how many story points I could complete in an iteration, I estimated, based on my baseline user story, that I could complete 50 story points per iteration.  As such, I ensured that iteration one included no more than 30 story points (60%) that were MUST HAVE or SHOULD HAVE priorities.  The kanban board for iteration one at the outset looked like this:
 

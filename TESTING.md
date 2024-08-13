@@ -242,7 +242,29 @@ User Story [#29](https://github.com/Jem212Mac/the-crafty-quilt-company/issues/29
 
 In addition to the testing I performed throughout the developement process which was primarily based around the user stories and the acceptance criteria (as detailed above), I also performed some exploratory testing based on the following user journeys with the goal of ensuring that the site would meet the expectations of a user in terms of ease of use, ease of navigation, responsiveness of buttons and links etc.  My aim was to ensure that user's would have a pleasant experience interacting with the site and that the overall display of content to the user was appropriate and appealing (clear, clean and uncluttered).
 
-1. 
+1. Viewing 'All Products' or a subset of Products dependent on the menu item chosen.
+2. Viewing a specific products details.
+3. Adding a product to the shopping bag.
+4. Adding several products to the shopping bag.
+5. Selecting checkout and entering delivery details and payment details to make a purchase.
+6. Searching for a product or description or author or brand via the search bar.
+7. Sorting the products displayed according to the various sort options available.
+8. Adding a product as a superuser.
+9. Editing a product as a superuser.
+10. Deleting a product as a superuser.
+11. Viewing My Profile.
+12. Editing My Profile.
+13. Viewing My Wishlist.
+14. Adding a product to my wishlist.
+15. Removing a product from my wishlist.
+16. Adding a product from my wishlist to the shopping bag.
+17. Registering a new account.
+18. Verifying an email address.
+19. Signing In.
+20. Signing Out.
+21. Completing the Contact Us form.
+22. Subscribing to the newsletter.
+23. Clicking on the site's facebook link.
 
 All input fields / forms were checked with both positive and negative tests to ensure that users could not submit empty fields, and that feedback to the user was appropriate.
 

@@ -9,6 +9,9 @@ Repository: [GitHub Repo](https://github.com/Jem212Mac/the-crafty-quilt-company)
 
 Developed by [Jemima MacKenzie](https://github.com/Jem212Mac).
 
+Stripe Test Card: 4242 4242 4242 4242
+Stripe Test Card for Authentication: 4000 0025 0000 3155
+
 ## About
 
 ## UX Design
@@ -28,6 +31,13 @@ At the outset of the project, I created the following wireframe designs using [F
 The planning and design of the wireframes helped me to decide on the database schema I would need, and this was created using [LucidChart](https://www.lucidchart.com/):
 
 ![The Crafty Quilt Company ERD]()
+
+
+## SEO, Content, and Marketing Strategies
+
+### SEO Keywords
+
+### Facebook Page
 
 
 ## Features & User Story Planning

@@ -44,6 +44,9 @@ The planning and design of the wireframes helped me to decide on the database sc
 
 ### Facebook Page
 
+![The Crafty Quilt Company Facebook Page 1](documentation/facebook_1.png)
+![The Crafty Quilt Company Facebook Page 2](documentation/facebook_2.png)
+
 
 ## Features & User Story Planning
 

@@ -18,8 +18,6 @@ Stripe Test Card for Authentication: 4000 0025 0000 3155
 
 ![Color Scheme](documentation/colour_scheme.png)
 
-In terms of typography, I chose:
-
 
 At the outset of the project, I created the following wireframe designs using [Figma](https://www.figma.com/):
 
@@ -30,7 +28,7 @@ At the outset of the project, I created the following wireframe designs using [F
 
 The planning and design of the wireframes helped me to decide on the database schema I would need, and this was created using [LucidChart](https://www.lucidchart.com/):
 
-![The Crafty Quilt Company ERD]()
+![The Crafty Quilt Company ERD](documentation/the_crafty_quilt_company_ERD.png)
 
 
 ## SEO, Content, and Marketing Strategies

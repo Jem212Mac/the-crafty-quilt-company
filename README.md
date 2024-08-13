@@ -15,6 +15,8 @@ Stripe Test Card for Authentication: 4000 0025 0000 3155
 
 ## About
 
+This is a B2C ecommerce website targeted at people who love beautiful handmade patchwork quilts.  The website offers consummers the ability to buy already finished handmade quilts, or to buy everything they might need to be able to make a colourful patchwork quilt for themselves (e.g fabric, thread, batting, tools and accesssories, and books to help learn different quilting and patchwork techniques).  The home page for the site provides a welcoming and colourful hero image demonstrating the type of quilts that can be bought or made, and the 'shop now' button allows the consumer to dive straight in an look at all the store has to offer.  The site includes a main navigation allowing the user to view products by category, price, and name, and includes a search bar that allows the customer to search for products by keywords in the product name, description, brand or author.  See selected screenshots (on different viewport sizes) below.
+
 ![Home Page on Desktop](documentation/home_page.png)
 
 ![All Products on Tablet](documentation/all_products_tablet.png)
@@ -23,8 +25,13 @@ Stripe Test Card for Authentication: 4000 0025 0000 3155
 
 ## UX Design
 
+The target audience for the site is anyone that loves colourful, handmade patchwork quilts and either wants to but them, or make them.  Since most of the products would be very colourful and bright, I wanted to make sure that the backdrop for the product images would be relatively plain and uncluttered in order to show the products in their full glory.  I did not want the backdrop to distract the customer's attention away from the stunningly colourful and bright products.  Therfore I chose a fairly simple colour scheme of mostly black and white with a small flourishes of colour in 'english violet':
+
 ![Color Scheme](documentation/colour_scheme.png)
 
+In terms of typography, I chose to use only one font style (Lato).  This is a relatively plain but stylish font that would be easy to read and not distract the consumer from the brightly coloured and fancy products.
+
+![Typography](documentation/lato.png)
 
 At the outset of the project, I created the following wireframe designs using [Figma](https://www.figma.com/):
 

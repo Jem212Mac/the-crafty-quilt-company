@@ -59,13 +59,28 @@ I decided on three iterations for the project.  My main aim for the first iterat
 
 Since I had no 'velocity' measures to use to give an indication of how many story points I could complete in an iteration, I estimated, based on my baseline user story, that I could complete 50 story points per iteration.  As such, I ensured that iteration one included no more than 30 story points (60%) that were MUST HAVE or SHOULD HAVE priorities.  The kanban board for iteration one at the outset looked like this:
 
+![Iteration 1 Start a](documentation/iteration_1_start_a.png)
+![Iteration 1 Start b](documentation/iteration_1_start_b.png)
+![Iteration 1 Start c](documentation/iteration_1_start_c.png)
+
 Towards the end of Iteration 1, I found that I had completed all of the tasks and user stories for the iteration, but I had no time left spare.
 
 Based on my velocity measure for Iteration 1, for Iteration 2, I included user stories totalling 5o story points, with MUST HAVE and SHOULD HAVE priorities totalling ? story points (less than 60%):
 
+![Iteration 2 Start](documentation/iteration_2_start.png)
+
 At the end of Iteration 2, however, I found that I did not have time to complete the following user stories, and I moved them back to the backlog.  In Iteration 2, I completed ? story points.
 
+![Iteration 2 Start](documentation/iteration_2_end.png)
+
 For Iteration 3 I included user stories totally ? story points with MUST HAVE and SHOULD HAVE priorities totalling ? story points (less than 60%):
+
+![Iteration 3 Start a](documentation/iteration_3_start_a.png)
+![Iteration 3 Start b](documentation/iteration_3_start_b.png)
+
+At the end of Iteration 3, I completed all of the user stories except for two, which I marked as won't do and moved back to the backlog:
+
+![Iteration 3 End](documentation/iteration_3_end.png)
 
 
 ## Technologies used

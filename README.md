@@ -10,9 +10,16 @@ Repository: [GitHub Repo](https://github.com/Jem212Mac/the-crafty-quilt-company)
 Developed by [Jemima MacKenzie](https://github.com/Jem212Mac).
 
 Stripe Test Card: 4242 4242 4242 4242
+
 Stripe Test Card for Authentication: 4000 0025 0000 3155
 
 ## About
+
+![Home Page on Desktop](documentation/home_page.png)
+
+![All Products on Tablet](documentation/all_products_tablet.png)
+
+![Product Detail on Mobile](documentation/product_detail_mobile.png)
 
 ## UX Design
 

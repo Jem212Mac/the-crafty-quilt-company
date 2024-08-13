@@ -20,6 +20,8 @@ In terms of typography, I chose:
 
 At the outset of the project, I created the following wireframe designs using [Figma](https://www.figma.com/):
 
+![The Crafty Quilt Company Wireframes](documentation/the_crafty_quilt_company_wireframes.png)
+
 
 ## Database Schema
 

@@ -47,7 +47,37 @@ The planning and design of the wireframes helped me to decide on the database sc
 
 ## SEO, Content, and Marketing Strategies
 
-### SEO Keywords
+In order to determine a set of SEO keywords that I could use throughout the site, especially as meta keywords, I brain dumped a number of short and long-tailed keywords that I thought users might use to search the site:
+
+Quilts, Patchwork Quilts, Quilter's Fabric, Cotton Fabric, Handmade Quilts, Baby Quilts, Single Quilts, Double Quilts, Kingsize Quilts, Quilter's Batting, Thread, Needles, Free Motion Quilting, Long Arm Quilting, Haberdashery, Fat Quarter's, Jelly Rolls, Quilting Books, Colourful Quilts, Quilt As You Go Quilts, Retro Quilts, Organic Cotton Quilts, Patchwork and Quilting Fabric, Quilting Cotton, Quilts For Sale Handmade, Heirloom Quilts, Handmade Gifts, What To Get For Someone Who Likes Quilting, What To Get For Someone Who Likes Patchwork Piecing.
+
+With this list, I input these keywords into google and used the Google auto suggestions to find these additional keywords:
+
+Handmade Patchwork Quilts for Sale, Fat Quarter Bundles, Patchwork Quilts Handmade, Patchwork Quilts For Sale, Modern Quilts, Classic Quilts, Cotton Patchwork Quilts, What Is Quilter's Fabric?, Cotton Patchwork Fabrics, Free Motion Quilting Book, How Big Is a Fat Quarter in the UK?, Jelly Roll Fabric, Patchwork and Quilting Books, Quilting Books for Beginners, Colourful Bed Quilts, Colourful Quilts for Sale, Quilt As You Go for Beginners, Retro Quilts for Sale, Modern Retro Quilts, Handmade Patchwork Quilts for Sale, Heirloom Quilts for Sale, Gifts for Quilter's and Stitchers.
+
+Analysing these two lists of keywords for relevance, authoritiveness, and competition (based on wordtracker.com) I streamlined the list to a mix of 20 short and long-tailed keywords which I used throughout the site and in meta data:
+
+ - quilts
+ - patchwork quilts
+ - quilters fabric
+ - handmade quilts
+ - baby quilts
+ - free motion quilting
+ - fat quarters
+ - quilting books
+ - retro quilts
+ - handmade patchwork quilts for sale
+ - fat quarter bundles
+ - patchwork quilts handmade
+ - patchwork quilts for sale
+ - modern quilts, cotton patchwork quilts
+ - cotton patchwork fabrics
+ - patchwork and quilting books
+ - handmade patchwork quilts for sale
+ - heirloom quilts for sale
+ - gifts for quilters and stitchers
+
+ I ensured that I used these keywords throughout the site where appropriate and I also made sure I used these keywords in image names and descriptions.
 
 ### Facebook Page
 
@@ -137,6 +167,7 @@ At the end of Iteration 3, I completed all of the user stories except for two, w
     + [JShint](https://jshint.com/) was used to validate JS code for the website.
     + [PEP8](https://pep8ci.herokuapp.com/) was used to validate Python code for the website.
     + [Table to Markdown](https://tabletomarkdown.com/) was used to convert excel tables into markdown for the TESTING.md file.
+    + [Wordtracker](https://www.wordtracker.com/) was used to analyse the competitiveness of SEO keywords.
 
 ## Local Development
 Gitpod was used as the IDE for local development of the application and GitHub was used for version control.
@@ -167,7 +198,9 @@ The application was deployed to Heroku.  In order to deploy to Heroku, the follo
 
 Given more time there are a number of enhancements I would like to make to the website:
 1. I would allow Sign Up or Sign In with social media accounts.
-
+2. I would include a FAQs model so that site owners can maintain and update FAQs on patchwork and quilting techniques that might be useful to their users.  This might also boost the SEO for the site.
+3. I would include some external inks to relevant sites such as (https://www.thefestivalofquilts.co.uk) to also enhance the SEO for the site.
+4. I would include a delete confirmation for the links allowing superusers to delete products from the site.
 
 ## Credits & Acknowledgements
 

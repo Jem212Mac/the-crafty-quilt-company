@@ -294,7 +294,17 @@ Testing was also performed on the following devices to ensure that the site was 
 
 Testing was performed throughout the development process, and I tried to fix bugs as soon as I observed them.  The following bugs were fixed during the development process:
 
-1. 
+1. When I originally added the image for the homepage, I had a typo in my code that prevented it from loading.  I fixed the typo and resolved the loading issue.
+2. When I first created my products.html template it was outside the products folder, causing the products to not display.  I moved the template into the correct folder to resolve this.
+3. I had an Unbound Local Error caused by an indentation error in my product views.py file.  I fixed the indentation and resolved this.
+4. At various points I realise I used $ rather than £ as the currency.  I went through the code and changed these.
+5. I realised at one point that styling of my crisy forms was not correct.  The form fields were shorter than expected.  This was caused by a typo in the settings.py file for the crispy template pack.  I fixed the typo and the crispy forms styling was resolved.
+6. I had some difficulty with my database as a result of repeatedly adding and then removing a wishlist app several times.  This caused an operation error where the wishlist tables were not being created.  I had to flush the database and rebuild it to fix this issue.
+7. I then had an operation error because the order table was not created.  I had to run migrations specifically for the checkout pp to fix this.
+8. Originally, I had a fixed bottom footer on my site, and as a result, the content on some of the pages was being hidden under the footer.  I went through a process of adding some bottom margin to elements at the bottom of these pages to make the content visible.  Eventually, however, I changed to a footer without a fixed bottom.
+9. The heading for the mailchimp newsleeter was appearing larger on three pages (profile, checkout, and checkout success); i discovered this was because I had added the css script for the newsletter to the css extra block on the product details page, and it was being overwritten by custom css for these pages.  I moved the newsletter css to the core css block and this resolved the issue.
+10. After I added the mailchimp newsletter, I noticed a problem where, if a user was not logged in, and added an product to bag, the subscribe button for the newsletter was activated rather than the add to bag button.  There were also problems with several other submit buttons which all seemed to result in adding a product to bag.  I discovered that this was because I had not closed the add to bag form.  I replaced a closing div with a closing form and these issues were resolved.
+11. I had a problem where the close buttons on the review delete modal were not working.  This was because I used bootstrap 5 elements rather than bootstrap 4 ones.  I changed these and the issues were resolved. 
 
 ---
 
